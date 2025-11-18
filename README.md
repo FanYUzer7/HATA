@@ -38,7 +38,10 @@ cd tasks
 bash run_*.sh
 ```
 
-Currently, the repo is still required to be refactored. It will be finished in 1-2 weeks.
+## Train your model weights
+
+We provide the hash weights employed in our experiments. You can also train your model weights using the scripts in the weights directory.
+Additionally, even without learning-to-hash—relying solely on LSH—256 bits is sufficient to achieve favorable results.
 
 ## Citation
 
